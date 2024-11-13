@@ -14,10 +14,23 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '食用指南',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '为什么会有这个网站', link: '/usage/why' },
+          { text: '包含了什么内容', link: '/usage/what' },
+          { text: '如何更好的阅读', link: '/usage/how' }
+        ]
+      },
+      {
+        text: '技术演进层级',
+        items: [
+          { text: 'Runtime API Examples', link: '/technical-log/api-examples' }
+        ]
+      },
+      {
+        text: '写在最后',
+        items: [
+          { text: 'markdown-examples', link: '/the-end/markdown-examples' }
         ]
       }
     ],
