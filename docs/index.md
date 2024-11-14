@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "Technical Log"
   text: "一个技术入门手册"
-  tagline: My great project tagline
+  tagline: 专为非研发人员打造
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 开整~！
+      link: /usage/why
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
   - title: Feature A
