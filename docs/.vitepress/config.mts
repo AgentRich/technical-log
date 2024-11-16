@@ -24,7 +24,11 @@ export default defineConfig({
       {
         text: '技术演进层级',
         items: [
-          { text: 'Runtime API Examples', link: '/technical-log/api-examples' }
+          { text: '从半导体到计算机', link: '/technical-log/Semiconductor2Computer.md' },
+          { text: '编程语言和系统能力', link: '/technical-log/ProgramAndSystem' },
+          { text: '从应用程序到软件产品', link: '/technical-log/App2Product' },
+          { text: '软件行业和互联网的通用服务', link: '/technical-log/SoftwareAndSaas' },
+          { text: '人工智能的新时代', link: '/technical-log/AI' }
         ]
       },
       {
