@@ -4,12 +4,12 @@ layout: home
 
 hero:
   name: "Technical Log"
-  text: "一个技术入门手册"
+  text: "一个IT技术入门手册"
   tagline: 专为非研发人员打造
   actions:
     - theme: brand
       text: 开整~！
-      link: /usage/why
+      link: /introduction
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples

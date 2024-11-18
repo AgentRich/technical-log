@@ -13,6 +13,7 @@ export default defineConfig({
     ],
 
     sidebar: [
+      { text: '引言', link: '/introduction.md' },
       {
         text: '食用指南',
         items: [
