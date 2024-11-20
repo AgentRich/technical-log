@@ -25,11 +25,17 @@ export default defineConfig({
       {
         text: '技术演进层级',
         items: [
-          { text: '从半导体到计算机', link: '/technical-log/Semiconductor2Computer.md' },
-          { text: '编程语言和系统能力', link: '/technical-log/ProgramAndSystem' },
-          { text: '从应用程序到软件产品', link: '/technical-log/App2Product' },
-          { text: '软件行业和互联网的通用服务', link: '/technical-log/SoftwareAndSaas' },
-          { text: '人工智能的新时代', link: '/technical-log/AI' }
+          { 
+            text: '计算的物理原理与信息互通', 
+            items:[
+              { text: '从半导体到计算机', link: '/technical-log/1/Semiconductor2Computer.md' },
+              { text: '专用设备和移动终端', link: '/technical-log/1/EquipmentAndMobile.md' },
+            ]
+          },
+          { text: '编程语言和系统能力', link: '/technical-log/2/ProgramAndSystem' },
+          { text: '从应用程序到软件产品', link: '/technical-log/3/App2Product' },
+          { text: '软件行业和互联网的通用服务', link: '/technical-log/4/SoftwareAndSaas' },
+          { text: '人工智能的新时代', link: '/technical-log/5/AI' }
         ]
       },
       {
