@@ -7,6 +7,9 @@ export default defineConfig({
   base: "/technical-log/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/usage/why' }
