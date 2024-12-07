@@ -32,7 +32,8 @@ export default defineConfig({
             text: '计算的物理原理与信息互通', 
             items:[
               { text: '从半导体到计算机', link: '/technical-log/1/Semiconductor2Computer.md' },
-              { text: '专用设备和移动终端', link: '/technical-log/1/EquipmentAndMobile.md' },
+              { text: '专用设备和移动终端', link: '/technical-log/1/branch/EquipmentAndMobile.md' },
+              { text: '为何非得半导体', link: '/technical-log/1/branch/WhyMustSem.md' },
             ]
           },
           { text: '编程语言和系统能力', link: '/technical-log/2/ProgramAndSystem' },
