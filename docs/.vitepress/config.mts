@@ -7,6 +7,10 @@ export default defineConfig({
   base: "/technical-log/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    editLink: {
+      pattern: 'https://github.com/AgentRich/technical-log/issues',
+      text: '给本篇文档捉虫或建议'
+    },
     search: {
       provider: 'local'
     },
@@ -32,6 +36,7 @@ export default defineConfig({
             text: '计算的物理原理与信息互通', 
             items:[
               { text: '从半导体到计算机', link: '/technical-log/1/Semiconductor2Computer.md' },
+              { text: '信息互通', link: '/technical-log/1/TheInternet.md' },
               { text: '专用设备和移动终端', link: '/technical-log/1/branch/EquipmentAndMobile.md' },
               { text: '为何非得半导体', link: '/technical-log/1/branch/WhyMustSem.md' },
             ]
