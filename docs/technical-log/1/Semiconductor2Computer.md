@@ -126,7 +126,7 @@ Intel 4004微处理器内部集成了2,250个晶体管。而Intel的酷睿i7处�
 
 这个章节我们主要来介绍计算机的硬件部分，软件部分放在后面。
 
-![motherboard.jpg](./images/motherboard.jpg)
+![motherboard.jpg](./images/Motherboard.jpg)
 
 这是一张现代个人计算机主板的各部件标识图。这种设计就是上文所提到的冯·诺依曼体系架构的改进版。
 * CPU负责处理和计算数据。
