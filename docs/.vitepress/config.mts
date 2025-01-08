@@ -33,7 +33,8 @@ export default defineConfig({
         text: '技术演进层级',
         items: [
           { 
-            text: '计算的物理原理与信息互通', 
+            text: '计算机的物理原理与信息互通', 
+            link: '/technical-log/1/ComputerAndInternet.md',
             items:[
               { text: '从半导体到计算机', link: '/technical-log/1/Semiconductor2Computer.md' },
               { text: '信息互通', link: '/technical-log/1/TheInternet.md' },
@@ -41,7 +42,14 @@ export default defineConfig({
               { text: '为何非得半导体', link: '/technical-log/1/branch/WhyMustSem.md' },
             ]
           },
-          { text: '编程语言和系统能力', link: '/technical-log/2/ProgramAndSystem' },
+          { text: '编程语言和系统能力',
+            link: '/technical-log/2/ProgramAndSystem' , 
+            items:[
+              {text: '编程语言', link: '/technical-log/2/Program.md'},
+              {text: '系统能力', link: '/technical-log/2/System.md'},
+              {text: '编程语言的九阳真经', link: '/technical-log/2/CodeRealEffect.md'},
+            ]
+          },
           { text: '从应用程序到软件产品', link: '/technical-log/3/App2Product' },
           { text: '软件行业和互联网的通用服务', link: '/technical-log/4/SoftwareAndSaas' },
           { text: '人工智能的新时代', link: '/technical-log/5/AI' }
