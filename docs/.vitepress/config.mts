@@ -46,7 +46,7 @@ export default defineConfig({
             link: '/technical-log/2/ProgramAndSystem' , 
             items:[
               {text: '编程语言', link: '/technical-log/2/Program.md'},
-              {text: '系统能力', link: '/technical-log/2/System.md'},
+              {text: '操作系统', link: '/technical-log/2/System.md'},
               {text: '编程语言的九阳真经', link: '/technical-log/2/CodeRealEffect.md'},
             ]
           },
