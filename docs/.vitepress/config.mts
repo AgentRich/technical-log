@@ -47,7 +47,7 @@ export default defineConfig({
             items:[
               {text: '编程语言', link: '/technical-log/2/Program.md'},
               {text: '操作系统', link: '/technical-log/2/System.md'},
-              {text: '编程语言的九阳真经', link: '/technical-log/2/CodeRealEffect.md'},
+              {text: '编程语言的本质：与CPU对话和内存管理', link: '/technical-log/2/CodeRealEffect.md'},
             ]
           },
           { text: '从应用程序到软件产品', link: '/technical-log/3/App2Product' },
