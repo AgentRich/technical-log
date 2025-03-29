@@ -7,6 +7,10 @@ export default defineConfig({
   base: "/technical-log/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    outline:{
+      level: [2,3],
+      label: "页内大纲"
+    },
     editLink: {
       pattern: 'https://github.com/AgentRich/technical-log/issues',
       text: '给本篇文档捉虫或建议'
